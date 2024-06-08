@@ -1,0 +1,14 @@
+.square-item{
+    width: 90px;
+    height: 90px;
+    background: #334552;
+    border-radius: 5px;
+    box-shadow: 1px 6px #2a3a45;
+    transition: ease 0.3s;
+}
+
+.square-item:hover{
+    transform: translateY(-2.5px);
+    cursor: pointer;
+    background: #5e7e98;
+}
